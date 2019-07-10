@@ -63,7 +63,7 @@ client.CreateTradeCard(tradeCard);
 ```
 ### Bejelentés törlése
 ```csharp
-client.DeleteTradeCard(tradeCard.Tcn, "");
+client.DeleteTradeCard(tradeCard.Tcn, "A törlés indoka");
 ```
 ### Hibakezelés
 Hiba esetén EKAERExcpeption kivétél keletkezik amelyből ki tudjuk nyerni a hiba részleteit,
@@ -135,7 +135,7 @@ client.CreateTradeCard(tradeCard);
 ```
 ### Delete tradecard
 ```csharp
-client.DeleteTradeCard(tradeCard.Tcn, "");
+client.DeleteTradeCard(tradeCard.Tcn, "Reason text");
 ```
 ### Error handling
 When something goes wrong, you can catch the EKAERException exception for error details.
