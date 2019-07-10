@@ -25,7 +25,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.**
 
 ## Mi ez és mire való?
-Ez egy nem hivatalos .NET standard kliens könyvtár az EKAER rendszer bejelentés kezelő XML interfészhez. A használata megkönnyítheti számunkra az adatok továbbítását és megóvhat minket pár alapvető hibától.
+Ez egy nem hivatalos .NET standard kliens könyvtár az EKAER rendszer bejelentés kezelő XML interfészéhez. A használata megkönnyítheti számunkra az adatok továbbítását és megóvhat minket pár alapvető hibától. Netstandard 2.0 kompatibilis, platform független megoldás amely windowsra és linuxra is fordítható.
 
 **A segítségével:**
 
@@ -70,7 +70,7 @@ client.CreateTradeCard(tradeCard);
 client.DeleteTradeCard(tradeCard.Tcn, "A törlés indoka");
 ```
 ### Hibakezelés
-Hiba esetén EKAERExcpeption kivétél keletkezik amelyből ki tudjuk nyerni a hiba részleteit,
+Hiba esetén `EKAERException` kivétél keletkezik amelyből ki tudjuk nyerni a hiba részleteit.
 ```csharp
 try
 {
@@ -87,8 +87,8 @@ catch (EKAERException e)
 
 A legtöbb metódus két verzióban is létezik és képes egy, vagy több bejelentésen is műveletet végezni, pl. egyszerre le tudunk zárni, vagy tudunk törölni több bejelentést is.
 
-## Mivel tudsz segíteni?
-Minden segítségnek örülök, legyen az kód, dokumentáció, teszt, vagy bármi ami megkönnyíti a használatot. Ha szeretnél segíteni a fejlesztésben ne habozz!
+## Hogyan tudsz segíteni?
+Minden segítségnek örülök, legyen az kód, dokumentáció, teszt, vagy bármi ami megkönnyíti a használatot. Ha szeretnél segíteni a fejlesztésben ne habozz és küldj pull requestet!
 
 ---
 
