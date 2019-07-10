@@ -10,7 +10,7 @@
 
 ## Fontos figyelmezetés
 
-Ez nem egy hivatalos programkönyvtár. Sem az EKAER, sem a Nemzeti Adó és Vámhivatal nem tud segítséget nyújtani a használatában, mert a fejlesztése tőlük függetlenül történt. Amennyiben bármilyen hibát tapasztalsz, vagy kérdés merül vele ezzel a kliens könyvtárral kapcsolatban, kérlek jelezd itt GitHub-on!
+Ez nem egy hivatalos programkönyvtár. Sem az EKAER support, sem a Nemzeti Adó és Vámhivatal nem tud segítséget nyújtani a használatában, mert a fejlesztése tőlük függetlenül történt. Amennyiben bármilyen hibát tapasztalsz, vagy kérdés merül vele ezzel a kliens könyvtárral kapcsolatban, kérlek jelezd itt GitHub-on!
 
 **Figyelmesen olvasd el és értsd meg a [felhasználási feltételeket](LICENSE) mielőtt elkezded a használatot.**
 
