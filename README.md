@@ -8,7 +8,7 @@
 [<img src="https://raw.githubusercontent.com/hjnilsson/country-flags/master/png250px/gb.png" width="32" />](#preamble-and-warnings)
 [<img src="https://raw.githubusercontent.com/hjnilsson/country-flags/master/png250px/hu.png" width="32" />](#fontos-figyelmezetések)
 
-## Fontos figyelmezetések
+## Fontos figyelmezetés
 
 Ez nem egy hivatalos programkönyvtár. Sem az EKAER, sem a Nemzeti Adó és Vámhivatal nem tud segítséget nyújtani a használatában, mert a fejlesztése tőlük függetlenül történt. Amennyiben bármilyen hibát tapasztalsz, vagy kérdés merül vele ezzel a kliens könyvtárral kapcsolatban, kérlek jelezd itt GitHub-on!
 
@@ -92,7 +92,7 @@ Minden segítségnek örülök, legyen az kód, dokumentáció, teszt, vagy bár
 
 ---
 
-# Preamble and warnings
+## Preamble and warnings
 
 **PLEASE NOTE**: this is not an official client, and not supported by the EKAER or by the National Tax and Customs Administration of Hungary. 
 
