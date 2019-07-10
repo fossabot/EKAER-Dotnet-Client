@@ -26,7 +26,6 @@ using System.Text.RegularExpressions;
 
 namespace EKAER.Validation
 {
-
     public static class Validators
     {
         public static void Validate(this QueryParamsType queryParams)

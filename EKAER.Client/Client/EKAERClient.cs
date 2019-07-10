@@ -34,7 +34,6 @@ namespace EKAER.Client
         private const string MANAGE_TRADE_CARDS = "manageTradeCards";
         public ApiClient(string username, string password, string VATNumber, string secretKey, string baseUrl = Constants.TEST) : base(username, password, VATNumber, secretKey, baseUrl)
         {
-
         }
 
         /// <summary>
@@ -54,7 +53,7 @@ namespace EKAER.Client
             }
             throw new EKAERException(response.Result);
         }
-
+        
         /// <summary>
         /// Queries one or more tradecards by arbitari parameters
         /// </summary>
@@ -134,7 +133,6 @@ namespace EKAER.Client
             }
             throw new EKAERException(response.Result);
         }
-
 
         public void LocalValidate(TradeCard tradeCard)
         {
@@ -274,7 +272,6 @@ namespace EKAER.Client
             }
             throw new EKAERException(response.Result);
         }
-
 
         public TradeCardInfo FinalizeTradeCard(string tradeCardNumber)
         {
