@@ -10,11 +10,11 @@
 
 ## Fontos figyelmezetés
 
-Ez nem egy hivatalos programkönyvtár. Sem az EKAER support, sem a Nemzeti Adó és Vámhivatal nem tud segítséget nyújtani a használatában, mert a fejlesztése tőlük függetlenül történt. Amennyiben bármilyen hibát tapasztalsz, vagy kérdés merül vele ezzel a kliens könyvtárral kapcsolatban, kérlek jelezd itt GitHub-on!
+Ez nem egy hivatalos programkönyvtár. Sem az EKAER support, sem a Nemzeti Adó és Vámhivatal nem tud segítséget nyújtani a használatában, mert a fejlesztése tőlük függetlenül történt. Amennyiben bármilyen hibát tapasztalsz, vagy kérdés merül fel ezzel a kliens könyvtárral kapcsolatban, kérlek jelezd itt GitHub-on!
 
 **Figyelmesen olvasd el és értsd meg a [felhasználási feltételeket](LICENSE) mielőtt elkezded a használatot.**
 
-A MIT License egy megengedő licensz, azonban **mindennemű felelősséget kizár a szoftver miatt keletkező károk tekintetében**.
+A MIT licensz egy megengedő licensz, azonban **mindennemű felelősséget kizár a szoftver miatt keletkező károk tekintetében**.
 
 **THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
