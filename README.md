@@ -140,7 +140,7 @@ client.DeleteTradeCard(tradeCard.Tcn, "Reason text");
 ```
 ### Error handling
 When something goes wrong, you can catch the EKAERException exception for error details.
-Hiba esetén EKAERExcpeption kivétél keletkezik amelyből ki tudjuk nyerni a hiba részleteit,
+
 ```csharp
 try
 {
