@@ -28,7 +28,7 @@ namespace EKAER.Validation
 {
     public static class Validators
     {
-        public static void Validate(this QueryParamsType queryParams)
+        public static void Validate(this QueryParams queryParams)
         {
             int maxRowNum = 0;
             if (queryParams == null) throw new ArgumentNullException("queryParams");

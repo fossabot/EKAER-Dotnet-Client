@@ -2663,14 +2663,14 @@ namespace EKAER.Schema.Management
         /// <para>Ha bejelentés listára szűrünk akkor ebben kell megadni a szűrési feltételeket!</para>
         /// </summary>
         [System.Xml.Serialization.XmlElementAttribute("queryParams", Namespace="http://schemas.nav.gov.hu/EKAER/1.0/ekaermanagement")]
-        public QueryParamsType QueryParams { get; set; }
+        public QueryParams QueryParams { get; set; }
     }
     
     /// <summary>
     /// </summary>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("XmlSchemaClassGenerator", "2.0.241.0")]
     [System.Xml.Serialization.XmlTypeAttribute("QueryParamsType", Namespace="http://schemas.nav.gov.hu/EKAER/1.0/ekaermanagement")]
-    public partial class QueryParamsType
+    public partial class QueryParams
     {
         
         /// <summary>

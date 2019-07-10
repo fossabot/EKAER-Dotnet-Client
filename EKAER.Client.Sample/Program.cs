@@ -56,8 +56,7 @@ namespace EKAER.Client.Sample
                     }
                 }
                 tradeCard = client.ModifyTradeCard(tradeCard);
-                Console.WriteLine($"TradeCard modified. New arrival date: {tradeCard.ArrivalDate}");
-                
+                Console.WriteLine($"TradeCard modified. New arrival date: {tradeCard.ArrivalDate}");                
                 // Finalize
                 try
                 {
@@ -66,6 +65,8 @@ namespace EKAER.Client.Sample
                 }
                 catch (EKAERException e)
                 {
+                    Console.WriteLine(e.Result.ReasonCode);
+                    Console.WriteLine(e.Result.FuncCode);
                     Console.WriteLine(e.Message);
                 }
 

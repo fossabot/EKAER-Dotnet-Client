@@ -59,7 +59,7 @@ namespace EKAER.Client
         /// </summary>
         /// <param name="queryParams">The filter parameters</param>
         /// <returns>ICollection&lt;TradeCardInfoType&gt;</returns>
-        public ICollection<TradeCardInfo> QueryTradeCard(QueryParamsType queryParams)
+        public ICollection<TradeCardInfo> QueryTradeCard(QueryParams queryParams)
         {            
             queryParams.Validate();
             var request = BuildRequest<QueryTradeCardsRequest>();           

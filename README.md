@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Pethical/EKAER-Dotnet-Client.svg?branch=master)](https://travis-ci.org/Pethical/EKAER-Dotnet-Client)
+﻿[![Build Status](https://travis-ci.org/Pethical/EKAER-Dotnet-Client.svg?branch=master)](https://travis-ci.org/Pethical/EKAER-Dotnet-Client)
 [![CodeFactor](https://www.codefactor.io/repository/github/pethical/ekaer-dotnet-client/badge)](https://www.codefactor.io/repository/github/pethical/ekaer-dotnet-client) ![GitHub](https://img.shields.io/github/license/Pethical/EKAER-Dotnet-Client.svg?style=popout)
 
 [<img src="https://raw.githubusercontent.com/hjnilsson/country-flags/master/png250px/gb.png" width="32" />](#preamble-and-warnings)
@@ -44,7 +44,7 @@ var tradeCard = client.QueryTradeCard("TCN NUMBER");
 ### Bejelentések lekérdezése
 ```csharp
 // Az elmúlt 7 nap bejelentéseinek lekérdezése
-var tradeCards = client.QueryTradeCard(new QueryParams() { InsertFromDate = DateTime.Now.Subtract(7), InsertToDate = DateTime.Now });
+var tradeCards = client.QueryTradeCard(new QueryParams() { InsertFromDate = DateTime.Now.Subtract(TimeSpan.FromDays(7)), InsertToDate = DateTime.Now });
 ```
 
 ### Bejelentés módosítása
