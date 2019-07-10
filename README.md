@@ -1,5 +1,5 @@
 ﻿[![Build Status](https://travis-ci.org/Pethical/EKAER-Dotnet-Client.svg?branch=master)](https://travis-ci.org/Pethical/EKAER-Dotnet-Client)
-[![CodeFactor](https://www.codefactor.io/repository/github/pethical/ekaer-dotnet-client/badge)](https://www.codefactor.io/repository/github/pethical/ekaer-dotnet-client) ![GitHub](https://img.shields.io/github/license/Pethical/EKAER-Dotnet-Client.svg?style=popout)
+[![CodeFactor](https://www.codefactor.io/repository/github/pethical/ekaer-dotnet-client/badge)](https://www.codefactor.io/repository/github/pethical/ekaer-dotnet-client)  [![GitHub](https://img.shields.io/github/license/Pethical/EKAER-Dotnet-Client.svg?style=popout)](LICENSE)
 
 [<img src="https://raw.githubusercontent.com/hjnilsson/country-flags/master/png250px/gb.png" width="32" />](#preamble-and-warnings)
 [<img src="https://raw.githubusercontent.com/hjnilsson/country-flags/master/png250px/hu.png" width="32" />](#fontos-figyelmezetések)
