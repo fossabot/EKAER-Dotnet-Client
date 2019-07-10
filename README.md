@@ -1,3 +1,6 @@
+![GitHub](https://img.shields.io/github/license/Pethical/EKAER-Dotnet-Client.svg?style=popout) [![Build Status](https://travis-ci.org/Pethical/EKAER-Dotnet-Client.svg?branch=master)](https://travis-ci.org/Pethical/EKAER-Dotnet-Client)
+[![CodeFactor](https://www.codefactor.io/repository/github/pethical/ekaer-dotnet-client/badge)](https://www.codefactor.io/repository/github/pethical/ekaer-dotnet-client)
+
 ## Unofficial .NET standard client for the hungarian EKAER API
 This is an unofficial .NET standard client library for the hungarian ekaer API interface. With this library you can:
 * Create trade cards
