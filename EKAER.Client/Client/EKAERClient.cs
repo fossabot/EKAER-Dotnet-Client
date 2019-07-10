@@ -282,6 +282,5 @@ namespace EKAER.Client
             }
             return success.FirstOrDefault();
         }
-
     }
 }
