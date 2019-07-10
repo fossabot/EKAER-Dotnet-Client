@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>EKAER.Client</id>
+    <version>1.0.0</version>
+    <authors>Németh Péter</authors>
+    <owners>Pethical</owners>
+    <projectUrl>https://github.com/Pethical/EKAER-Dotnet-Client</projectUrl>
+    <repository type="git" url="https://github.com/Pethical/EKAER-Dotnet-Client" />
+    <license type="expression">MIT</license>
+    <iconUrl>https://pethical.hu/lorry-icon.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <releaseNotes></releaseNotes>
+    <title>EKAER API Client</title>
+    <summary>Client libary for the hungarian EKAER API</summary>
+    <description>
+      This is an unofficial .NET standard client library for the hungarian ekaer API interface. With this library you can:
+
+      Create trade cards
+      List your trade cards
+      Modify your trade cards
+      Delete your trade cards
+      Finalize your trade cards
+    </description>
+
+    <copyright>Copyright © 2019 Németh Péter</copyright>
+
+    <tags>EKAER API</tags>
+
+    <dependencies>
+    </dependencies>
+  </metadata>
+</package>

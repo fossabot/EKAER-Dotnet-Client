@@ -109,6 +109,7 @@ This is an unofficial .NET standard client library for the hungarian ekaer API i
 * Modify your trade cards
 * Delete your trade cards
 * Finalize your trade cards
+
 For more information see the official website at https://ekaer.nav.gov.hu/ and the official API documentation at: https://ekaer.nav.gov.hu/faq/?page_id=9
 
 ## How to use?

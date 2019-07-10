@@ -5,10 +5,27 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <ApplicationIcon />
     <StartupObject />
-    <Authors>Pethical</Authors>
-    <Product>EKAER.Client library</Product>
-    <Description>Unofficial EKAER client library</Description>
-    <Copyright>Péter Németh</Copyright>
-  </PropertyGroup>
+    <Authors>Németh Péter</Authors>
+    <Product>Client libary for the hungarian EKAER API</Product>
+    <Description>This is an unofficial .NET standard client library for the hungarian ekaer API interface. With this library you can:
 
+Create trade cards
+List your trade cards
+Modify your trade cards
+Delete your trade cards
+Finalize your trade cards</Description>
+    <Copyright>Németh Péter</Copyright>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company />
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/Pethical/EKAER-Dotnet-Client</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Pethical/EKAER-Dotnet-Client</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageTags>EKAER, API</PackageTags>
+    <PackageIconUrl>https://pethical.hu/lorry-icon.png</PackageIconUrl>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>exported.pfx</AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
 </Project>
