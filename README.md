@@ -40,6 +40,10 @@ Több információért látogasd meg a hivatalos weboldalt a https://ekaer.nav.g
 ## Hogyan használd?
 A használatához először mindenképp át kell tanulmányozni az EKAER hivatalos dokumentációit és regisztrálnunk kell a rendszerben. Ezután adjuk hozzá referenciaként a projektet a saját megoldásunkhoz és az ApiClient osztályon keresztül hívhatjuk az interfészt.
 
+### Példaprogram fordítása és futtatása
+A példaprogram azt mutatja meg, hogyan kell bejelentést létrehozni, módosítani, véglegesíteni és törölni. (A példában a törlés hibára fut, vagy véglegesítünk, vagy törlünk). A programban a megfelelő konstansokat töltsük ki (felhasználónév, jelszó, adószám, titkos kulcs)! A fordításához futtasd a `dotnet build` majd a `dotnet run` parancsot. Netcore 3.0 és magasabb verzió esetén windowson a build után az programfájl is közvetlenül futtatható. 
+**Soha ne tesztelj, vagy fejlessz az éles rendszeren!** A kliens alapértelmezetten a TESZT rendszerre kapcsolódik.
+
 ### Bejelentés lekérdezése TCN alapján
 ```csharp
 var client = new ApiClient(apiUser, apiPassword, VATNumber, apiSecret);
