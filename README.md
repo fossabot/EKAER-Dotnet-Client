@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/Pethical/EKAER-Dotnet-Client.svg?branch=master)](https://travis-ci.org/Pethical/EKAER-Dotnet-Client)
 [![CodeFactor](https://www.codefactor.io/repository/github/pethical/ekaer-dotnet-client/badge)](https://www.codefactor.io/repository/github/pethical/ekaer-dotnet-client)
 ![netstandard 2.0](https://img.shields.io/badge/netstandard-2.0-blue.svg)
-[![GitHub release](https://img.shields.io/github/release/Pethical/EKAER-Dotnet-Client.svg?style=popout)](releases)
+[![GitHub release](https://img.shields.io/github/release/Pethical/EKAER-Dotnet-Client.svg?style=popout)](//github.com/Pethical/EKAER-Dotnet-Client/releases)
 [![Nuget](https://img.shields.io/nuget/vpre/EKAER.Client.svg?style=popout)](https://www.nuget.org/packages/EKAER.Client)
 [![Nuget](https://img.shields.io/nuget/dt/EKAER.Client?label=nuget%20downloads&style=poput)](https://www.nuget.org/packages/EKAER.Client)
 
