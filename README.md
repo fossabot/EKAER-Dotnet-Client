@@ -5,6 +5,7 @@
 [![GitHub release](https://img.shields.io/github/release/Pethical/EKAER-Dotnet-Client.svg?style=popout)](//github.com/Pethical/EKAER-Dotnet-Client/releases)
 [![Nuget](https://img.shields.io/nuget/vpre/EKAER.Client.svg?style=popout)](https://www.nuget.org/packages/EKAER.Client)
 [![Nuget](https://img.shields.io/nuget/dt/EKAER.Client?label=nuget%20downloads&style=poput)](https://www.nuget.org/packages/EKAER.Client)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FPethical%2FEKAER-Dotnet-Client.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FPethical%2FEKAER-Dotnet-Client?ref=badge_shield)
 
 [<img src="https://raw.githubusercontent.com/hjnilsson/country-flags/master/png250px/gb.png" width="32" />](#preamble-and-warnings)
 [<img src="https://raw.githubusercontent.com/hjnilsson/country-flags/master/png250px/hu.png" width="32" />](#fontos-figyelmezetések)
@@ -164,3 +165,7 @@ catch (EKAERException e)
 ```
 ## Contributing
 Contributors are welcome! Don't hesitate if you have any idea!
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FPethical%2FEKAER-Dotnet-Client.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FPethical%2FEKAER-Dotnet-Client?ref=badge_large)
